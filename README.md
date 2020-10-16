@@ -100,6 +100,58 @@ Notes:
 
 ### Reactive System
 
+Question:  
+Write an optimal reactive system to allow the system to update the last computed result whenever any of it's dependencies changed.
+
+```js
+/**
+ * For Example (doesn't directly related to the code)
+ * This is just to show the idea that won't work in vanilla js
+ */
+
+let a = 1;
+let b = 2;
+let c = a + b;
+console.log(c); // 3
+
+a = 2; // here reactive system comes into play
+console.log(c); // 4
+```
+
+How to run the code:
+
+1. Download & install [Nodejs](https://nodejs.org/en/)
+2. Download question files [Reactive System](https://drive.google.com/file/d/1vcm3EIT68lkSBr85rcmIw3EJtEaubK-5/view?usp=sharing)
+3. Open reactive-system folder in VS Code after unzip files.
+4. Open VS Code terminal and run
+
+```sh
+npm install
+```
+
+5. Run
+
+```sh
+npm run watch
+```
+
+6. Check react.spec.js file which have information about how to system should work and act to changes.
+
+Tips:
+
+1. In react.spec.js there is function call test and xtest when you got a passed test go to the next xtest and change it to test
+
+```
+For Example
+line-9)  xtest('allows input cell .....
+
+Change it to
+line-9) test('allows input cell
+```
+
+2. All your code should be written in react.js.
+3. Pass as much test cases as you can it's ok if u couldn't reac the last target.
+
 ---
 
 <br />
