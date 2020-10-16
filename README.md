@@ -19,9 +19,9 @@
 ### Visa
 
 Question:  
-Write an algorithm to verify the whether the card number is correct or incorrect (we assume main function called <strong>verifyCardNumber</strong>).
+Write an algorithm to verify the whether the card number is **valid** or **Invalid** (we assume main function called **verifyCardNumber**).
 
-```
+```js
 function verifyCardNumber(cardNumber) {
     // your solution
 }
@@ -50,10 +50,10 @@ Instructions:
 |__ 4 * 2 = 8
 ```
 
-2. Now add all single-digit numbers from <strong>step 1</strong>.
+2. Now add all single-digit numbers from **step 1**.
 3. Add all digits in the odd places from right to left in the card number.
-4. Sum the results from <strong>step 2</strong> and <strong>step 3</strong>.
-5. If the result from <strong>step 4</strong> is divisible by 10, the card number is valid; otherwise, it's invalid.
+4. Sum the results from **step 2** and **step 3**.
+5. If the result from **step 4** is divisible by 10, the card number is valid; otherwise, it's invalid.
 
 Test Cases:
 
@@ -62,7 +62,7 @@ Input:
 4388576018410707
 
 Output:
-Invalid
+Valid
 ```
 
 ```
