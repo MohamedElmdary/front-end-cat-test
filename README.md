@@ -16,6 +16,8 @@
 -   [Cards Animation](#cards-animation)
 -   [Reactive System](#reactive-system)
 
+---
+
 ### Visa
 
 Question:  
@@ -73,6 +75,8 @@ Output:
 Invalid
 ```
 
+---
+
 ### Card Animation
 
 Question:  
@@ -98,6 +102,8 @@ Notes:
 2. Same animation is required (don't edit the animation).
 3. This question required html/css only but it's ok if someone wanna add js (but it's 100% not required).
 
+---
+
 ### Reactive System
 
 Question:  
@@ -106,7 +112,7 @@ Write an optimal reactive system to allow the system to update the last computed
 ```js
 /**
  * For Example (doesn't directly related to the code)
- * This is just to show the idea that won't work in vanilla js
+ * This is just to show the idea of the system but the following code won't * work in vanilla js
  */
 
 let a = 1;
