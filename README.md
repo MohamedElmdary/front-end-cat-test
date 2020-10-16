@@ -141,7 +141,7 @@ npm install
 npm run watch
 ```
 
-6. Check react.spec.js file which have information about how to system should work and act to changes.
+6. Check react.spec.js file which have information about how the system should work and act to changes.
 
 Tips:
 
