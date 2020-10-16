@@ -128,6 +128,18 @@ How to run the code:
 
 1. Download & install [Nodejs](https://nodejs.org/en/)
 2. Download question files [Reactive System](https://drive.google.com/file/d/1vcm3EIT68lkSBr85rcmIw3EJtEaubK-5/view?usp=sharing)
+
+```
+Files structure
+
+reactive-system
+|__ babel.config.js // ignore
+|__ package.json // ignore
+|__ README.md // ignore
+|__ react.spec.js // tests file
+|__ react.js // main file to write your code
+```
+
 3. Open reactive-system folder in VS Code after unzip files.
 4. Open VS Code terminal and run
 
@@ -145,7 +157,7 @@ npm run watch
 
 Tips:
 
-1. In react.spec.js there is function call test and xtest when you got a passed test go to the next xtest and change it to test
+1. In react.spec.js there are two functions (test and xtest) when you got a passed test go to the next xtest and change it to test
 
 ```
 For Example
@@ -157,6 +169,7 @@ line-9) test('allows input cell
 
 2. All your code should be written in react.js.
 3. Pass as much test cases as you can it's ok if u couldn't reach the target.
+4. Make Sure you remove node_modules file before upload your code.
 
 ---
 
