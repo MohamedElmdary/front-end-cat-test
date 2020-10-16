@@ -77,7 +77,7 @@ Invalid
 
 ---
 
-### Card Animation
+### Cards Animation
 
 Question:  
 Design a cards layout with the animation shown in the blow video. The card itself also required to be degined but just a single card design should be enough (Don't change data for every card).
@@ -156,7 +156,7 @@ line-9) test('allows input cell
 ```
 
 2. All your code should be written in react.js.
-3. Pass as much test cases as you can it's ok if u couldn't reac the last target.
+3. Pass as much test cases as you can it's ok if u couldn't reach the target.
 
 ---
 
