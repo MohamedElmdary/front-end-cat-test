@@ -115,19 +115,19 @@ Write an optimal reactive system to allow the system to update the last computed
  * This is just to show the idea of the system but the following code won't * work in vanilla js
  */
 
-let a = 1;
-let b = 2;
-let c = a + b;
-console.log(c); // 3
+let a = 1
+let b = 2
+let c = a + b
+console.log(c) // 3
 
-a = 2; // here reactive system comes into play
-console.log(c); // 4
+a = 2 // here reactive system comes into play
+console.log(c) // 4
 ```
 
 How to run the code:
 
 1. Download & install [Nodejs](https://nodejs.org/en/)
-2. Download question files [Reactive System](https://drive.google.com/file/d/1vcm3EIT68lkSBr85rcmIw3EJtEaubK-5/view?usp=sharing)
+2. Download question files [Reactive System](https://drive.google.com/file/d/1LNMggYecg0UybMTlckFAV5gCfPBpe0ag/view?usp=sharing)
 
 ```
 Files structure
